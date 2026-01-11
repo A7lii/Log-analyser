@@ -1,10 +1,10 @@
 import os
-log_file = "application.log"
+log_file = "sample.log"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 print("SCRIPT FOLDER:", BASE_DIR)
 print("LOOKING FOR:", log_file)
 
-log_file = os.path.join(BASE_DIR, "application.log")
+log_file = os.path.join(BASE_DIR, "sample.log")
 
 failed_logins = {}
 threshold = 5
